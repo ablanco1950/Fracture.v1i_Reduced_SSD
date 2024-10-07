@@ -56,6 +56,9 @@ Future versions of this essay will attempt to incorporate a VGG16 of the type th
 https://www.kaggle.com/code/datastrophy/vgg16-pytorch-implementation
 
 
+![texto cualquiera por si no carga la imagen](url completa de la imagen)
+
+
 ===
 References and citations:
 
