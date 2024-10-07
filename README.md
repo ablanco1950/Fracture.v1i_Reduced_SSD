@@ -55,7 +55,7 @@ Therefore, it is reduced to a CNN with only hidden layers.
 Future versions of this essay will attempt to incorporate a VGG16 of the type that appears in:
 https://www.kaggle.com/code/datastrophy/vgg16-pytorch-implementation
 
-![texto cualquiera por si no carga la imagen](url completa de la imagen)
+![texto cualquiera por si no carga la imagen](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_1.png)
 
 
 ===
