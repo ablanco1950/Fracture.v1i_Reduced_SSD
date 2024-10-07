@@ -84,3 +84,5 @@ https://medium.com/biased-algorithms/what-is-a-hidden-layer-in-a-neural-network-
 https://github.com/ablanco1950/Fracture.v1i_Reduced_Yolov10
 
 https://github.com/ablanco1950/Fracture.v1i_Reduced_YoloFromScratch
+
+https://github.com/ablanco1950/Fracture.v1i_Reduced_SVR
