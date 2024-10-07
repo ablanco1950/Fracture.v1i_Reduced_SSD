@@ -44,7 +44,11 @@ When you run this test, the  image appears with a green rectangle indicating the
 The results obtained are lower than those obtained with other models with the same data set:
 
 https://github.com/ablanco1950/Fracture.v1i_Reduced_Yolov10
+
 https://github.com/ablanco1950/Fracture.v1i_Reduced_YoloFromScratch
+
+https://github.com/ablanco1950/Fracture.v1i_Reduced_SVR
+
 
 The associated CNN is an adaptation of the one in the article https://medium.com/aimonks/ssd-neural-network-revolutionizing-object-detection-f655d8b4b521 simplified without considering the proposed VGG16 due to the impossibility of integrating it.
 Therefore, it is reduced to a CNN with only hidden layers.
