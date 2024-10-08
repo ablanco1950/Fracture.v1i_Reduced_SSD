@@ -125,7 +125,7 @@ class YOLODataset(Dataset):
     label=0
     image = np.array(image) / 255.0
     
-    return torch.FloatTensor(image), torch.tensor(label, dtype=torch.long), torch.FloatTensor([x, y, width, width])
+    return torch.FloatTensor(image), torch.tensor(label, dtype=torch.long), torch.FloatTensor([x, y, width, height])
  
 # Simplified SSD Model Definition
 class SimplifiedSSD(nn.Module):
