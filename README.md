@@ -55,14 +55,6 @@ Therefore, it is reduced to a CNN with only hidden layers.
 Future versions of this essay will attempt to incorporate a VGG16 of the type that appears in:
 https://www.kaggle.com/code/datastrophy/vgg16-pytorch-implementation
 
-A test with the first six images of test dataset, in blue the predicted box, in green the labeled box
-
-![Fig1](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_1.png)
-![Fig2](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_2.png)
-![Fig3](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_3.png)
-![Fig4](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_4.png)
-![Fig5](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_5.png)
-![Fig6](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_6.png)
 
 ===
 References and citations:
