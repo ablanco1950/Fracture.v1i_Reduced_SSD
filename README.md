@@ -64,7 +64,9 @@ When you run this test, the  image appears with a green rectangle indicating the
 ===
 References and citations:
 
-The simplified SSD is an adaptation of https://medium.com/aimonks/ssd-neural-network-revolutionizing-object-detection-f655d8b4b521
+The simplified SSD is an adaptation of:
+
+https://medium.com/aimonks/ssd-neural-network-revolutionizing-object-detection-f655d8b4b521
 
 https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1/dataset/1
 
