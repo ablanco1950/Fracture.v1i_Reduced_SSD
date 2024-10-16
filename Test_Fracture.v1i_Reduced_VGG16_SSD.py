@@ -1,6 +1,6 @@
 
 
-model_path = "SSD_epoch45.pth" 
+model_path = "SSD_epoch50.pth" 
 
 import torch
 import torch.nn as nn
