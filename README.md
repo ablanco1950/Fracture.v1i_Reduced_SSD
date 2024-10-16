@@ -1,6 +1,6 @@
 # Fracture.v1i_Reduced_SSD
 
-From a selection of data from the Roboflow file https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1/dataset/1, which represents a reduced but homogeneous version of that file, try to perform fracture detection using SSD
+From a selection of data from the Roboflow file https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1/dataset/1, which represents a reduced but homogeneous version of that file, try to perform fracture detection using SSD. A version with VGG16 and another with only linear layers are presented
 
 
 By using only 147 images, training is allowed using a personal computer without GPU
