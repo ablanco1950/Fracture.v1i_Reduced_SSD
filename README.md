@@ -40,6 +40,7 @@ When you run this test, the  image appears with a green rectangle indicating the
 ===
 
  Another option with a SSD model  that has not VGG16 only linear layers that requires more epoch but need less time:
+
 Training:
 
 execute 
