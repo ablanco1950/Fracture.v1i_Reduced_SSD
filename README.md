@@ -29,7 +29,7 @@ Due to their large size, over 1.3 Gb, it has not been possible to upload some ve
 
 
 
-TESTyolovFromScratch_kaggle.py modifying the name of the model that appears in instruction 3 according to the model to be considered.
+Test_Fracture.v1i_Reduced_SSD.py modifying the name of the model that appears in instruction 3 according to the model to be considered.
 
 The model that gives the best results may be  retained.
 
