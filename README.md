@@ -15,6 +15,31 @@ To download the dataset you have to register as a roboflow user, but to simplify
 Some zip decompressors duplicate the name of the folder to be decompressed; a folder that contains another folder with the same name should only contain one. In these cases it will be enough to cut the innermost folder and copy it to the project folder.
 
 ===
+
+Training:
+
+execute 
+
+Train_Fracture.v1i_Reduced_VGG16_SSD.py 
+
+A log with its execution in 50 epochs is attached: LOG_VGG16_SSD_50epoch.txt,
+
+At the end  a model is written to the project directory with the name SSD_epoch50.pth 
+
+Due to their large size, over 1.3 Gb, it has not been possible to upload some verification models to github
+
+Evaluate with:
+
+Test_Fracture.v1i_Reduced_VGG16_SSD.py  the name of the model that appears in instruction 3 .
+
+The test was done with the 9 images of the test file (directory testFractureOJumbo1). In the location of the boxes that detect the fractures, In 7 cases they are acceptable, in the remaining 2 the predicted box and the box with the tagged fracture only touch or overlap slightly.
+
+When you run this test, the  image appears with a green rectangle indicating the rectangle with which the image was labeled and in blue with the predicted rectangle.
+
+
+===
+
+ Another option with a SSD model  that has not VGG16 only linear layers that requires more epoch but need less time:
 Training:
 
 execute 
@@ -27,39 +52,18 @@ every 1000 epoch a model is written to the project directory with the name SSD_e
 
 Due to their large size, over 1.3 Gb, it has not been possible to upload some verification models to github
 
-
-
 Test_Fracture.v1i_Reduced_SSD.py modifying the name of the model that appears in instruction 3 according to the model to be considered.
 
 The model that gives the best results may be  retained.
 
 The test was done with the 9 images of the test file (directory testFractureOJumbo1). Poor results are obtained in the location of the boxes that detect the fractures. In 4 cases they are acceptable, in the remaining 5 the predicted box and the box with the tagged fracture only touch or overlap slightly.
 
-
-
 When you run this test, the  image appears with a green rectangle indicating the rectangle with which the image was labeled and in blue with the predicted rectangle.
-
-#Comments and conclusions:
-
-The results obtained are lower than those obtained with other models with the same data set:
-
-https://github.com/ablanco1950/Fracture.v1i_Reduced_Yolov10
-
-https://github.com/ablanco1950/Fracture.v1i_Reduced_YoloFromScratch
-
-https://github.com/ablanco1950/Fracture.v1i_Reduced_SVR
-
-
-The associated CNN is an adaptation of the one in the article https://medium.com/aimonks/ssd-neural-network-revolutionizing-object-detection-f655d8b4b521 simplified without considering the proposed VGG16 due to the impossibility of integrating it.
-Therefore, it is reduced to a CNN with only hidden layers.
-Future versions of this essay will attempt to incorporate a VGG16 of the type that appears in:
-https://www.kaggle.com/code/datastrophy/vgg16-pytorch-implementation
-
 
 ===
 References and citations:
 
-https://medium.com/aimonks/ssd-neural-network-revolutionizing-object-detection-f655d8b4b521
+The simplified SSD is an adaptation of https://medium.com/aimonks/ssd-neural-network-revolutionizing-object-detection-f655d8b4b521
 
 https://universe.roboflow.com/landy-aw2jb/fracture-ov5p1/dataset/1
 
