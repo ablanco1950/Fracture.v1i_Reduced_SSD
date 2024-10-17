@@ -36,7 +36,7 @@ The test was done with the 9 images of the test file (directory testFractureOJum
 
 When you run this test, the  image appears with a green rectangle indicating the rectangle with which the image was labeled and in blue with the predicted rectangle.
 
-![texto cualquiera por si no carga la imagen](url completa de la imagen)
+![Fig1](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_1.png)
 
 
 ===
