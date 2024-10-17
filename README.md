@@ -37,6 +37,14 @@ The test was done with the 9 images of the test file (directory testFractureOJum
 When you run this test, the  image appears with a green rectangle indicating the rectangle with which the image was labeled and in blue with the predicted rectangle.
 
 ![Fig1](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_1.png)
+![Fig2](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_2.png)
+![Fig3](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_3.png)
+![Fig4](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_4.png)
+![Fig5](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_5.png)
+![Fig6](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_6.png)
+![Fig7](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_7.png)
+![Fig8](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_8.png)
+![Fig9](https://github.com/ablanco1950/Fracture.v1i_Reduced_SSD/blob/main/Figure_9.png)
 
 
 ===
